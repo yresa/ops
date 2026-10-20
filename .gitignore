@@ -1,0 +1,33 @@
+# ── Ambientes, Variáveis e Segredos ─────────────────────────
+.env
+.env.*
+!.env.example
+*.local
+*.pem
+*.key
+*.cert
+id_rsa
+id_ed25519
+
+# ── Credenciais de Nuvem e Ferramentas ───────────────────────
+.wrangler/
+service-account*.json
+credentials.json
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# ── Logs e Dados Brutos ──────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ── Sistema Operacional e Editores ───────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.bak
