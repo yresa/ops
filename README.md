@@ -41,7 +41,8 @@ yresa-ops/
 │
 └── antigravity-cockpit/                       # Automações da Mesa de Operação do Fundador
     ├── 01_BOLETIM_MATINAL_SPEC.md             # Especificação do briefing matinal ao abrir o laptop
-    └── 02_CHECKLIST_PRE_PRODUCAO.md           # Roteiro de checagem obrigatória antes do lançamento
+    ├── 02_CHECKLIST_PRE_PRODUCAO.md           # Roteiro de checagem obrigatória antes do lançamento
+    └── 03_COCKPIT_MOVEL_TELEGRAM_BOT_SPEC.md  # Especificação do bot conversacional executivo no Telegram
 ```
 
 ---
